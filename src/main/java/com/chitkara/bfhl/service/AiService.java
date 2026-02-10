@@ -11,7 +11,7 @@ import java.util.Map;
 @Service
 public class AiService {
 
-    @Value("${gemini.api.key}")
+    @Value("${GEMINI_API_KEY}")
     private String apiKey;
 
     public String askAI(String question) {
